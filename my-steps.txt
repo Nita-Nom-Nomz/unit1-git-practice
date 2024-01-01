@@ -139,6 +139,10 @@ $ rm -r drinks
 ### Step 4
 $ git init
 Initialized empty Git repository in C:/Users/artis/Desktop/unit1-git-practice/.git/
+
+$ git add .
+warning: in the working copy of 'my-steps.txt', LF will be replaced by CRLF the next time Git touches it
+
 $ git commit -m 'unit1-git-practice'
 [master (root-commit) 3af9c7e] unit1-git-practice
  9 files changed, 156 insertions(+)
@@ -158,10 +162,30 @@ $ git remote add origin https://github.com/Nita-Nom-Nomz/unit1-git-practice.git
 git branch -M main
 git push -u origin main
 
+had an issue with my login with GitHub. deleted repository and re-created it.
+re-did steps except for git init since that's supposed to be done only once.
+$ git remote add origin https://github.com/Nita-Nom-Nomz/unit1-git-practice.git
+git branch -M main
+git push -u origin main
+error: remote origin already exists.
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (11/11), 1.87 KiB | 958.00 KiB/s, done.
+Total 11 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/Nita-Nom-Nomz/unit1-git-practice.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+
 ### Step 6
+$ touch menu.txt
 
-
-
+below commands were added before following through with these steps.
+git add . menu.txt
+git commit -m 'menu edition'
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
