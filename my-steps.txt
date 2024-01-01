@@ -105,11 +105,6 @@ $ touch cookie.txt
 ### Step 3G
 $ mv cookie.txt donut.txt
 
-### Review
-$ cd ..
-$ touch menu.txt
-didn't find menu.txt in the instructions but it was on the review screenshot to check work/make sure items matched said screentshot.
-
 
 ### Step 3H
 $ touch thing.txt
@@ -144,12 +139,28 @@ $ rm -r drinks
 ### Step 4
 $ git init
 Initialized empty Git repository in C:/Users/artis/Desktop/unit1-git-practice/.git/
+$ git commit -m 'unit1-git-practice'
+[master (root-commit) 3af9c7e] unit1-git-practice
+ 9 files changed, 156 insertions(+)
+ create mode 100644 menu.txt
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 proteins/meats/crab.txt
+ create mode 100644 proteins/tofu.txt
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
 
 
 ### Step 5
-
+$ git remote add origin https://github.com/Nita-Nom-Nomz/unit1-git-practice.git
+git branch -M main
+git push -u origin main
 
 ### Step 6
+
+
 
 
 ### Step 7
